@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.miestro.task.MainActivity"
+    android:background="@color/baige"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Products"
+        android:textColor="#000"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:gravity="center"
+
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerView"
+        android:orientation="vertical"
+        ></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
